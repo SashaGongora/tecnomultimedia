@@ -2,7 +2,7 @@
 //Gongora, Sasha 
 // tocar "p" para iniciar musica, tocar "s" para detenerla
 int miVariable;
-String texto, texto2, texto3, texto4, texto5, texto5a, texto6, texto6a, texto7, texto7a, texto8, texto8a, texto9, texto9a, texto10, tex;
+String texto, texto2, texto3, texto4, texto5, texto6, texto7, texto8, texto8a, texto9, texto10,texto11;
 PImage poliArrodillado;
 PImage Martillo;
 PImage chris;
@@ -32,8 +32,8 @@ void setup() {
   texto7= "Co-Producer \n DANIEL BACKHEIM";
   texto8= "Casting by \n JONATHAN STRAUSS \n Lynn Kressel Casting";
   texto9= "Story Editor\n MICK BETANCOURT";
-  texto10="With\n ANTU YACOB         Ida Jallow\n JESSICA PIMENTEL     Joanne Suarez\n OWEN CAMPBELL     P.C Garcia\n TOM LUCCA     Dc. nee Tommy";
-  
+  texto10="With\nANTU YACOB\nJESSICA PIMENTEL\nOWEN CAMPBELL\nTOM LUCCA";   
+  texto11= " CREATED BY DICK WOLF ";
   poliArrodillado = loadImage("3poliarrodillado.jpeg");
   poliArrodillado.resize(500, 300);
   Martillo= loadImage("martillo.png");
@@ -99,11 +99,15 @@ void draw() {
   fill(255);
   text(texto9, 503, 2420-miVariable);
   fill(63, 41, 155);
-  text(texto10, 503, 2520-miVariable);
-
-
+  text(texto10, 500, 2520-miVariable);
+  fill(255);
+  text(texto10, 503, 2700-miVariable);
+  textSize(70);
+  fill (245, 7, 7);
+  text(texto11, 0, 3000-miVariable);
+  fill(255);
+  text(texto11, 1, 3000-miVariable);
   println(frameCount);
-  //4865
 }
 //musica
 void keyPressed() {
