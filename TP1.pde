@@ -22,7 +22,7 @@ void setup() {
   textSize(50);
   miVariable = 100;
   soundengine = new Minim(this);
-  sonido1= soundengine.loadSample("LawOrderTheme.wav");
+  sonido1= soundengine.loadSample("Law-_-Order-Full-Theme-_High-Quality_.wav");
   texto= "LAW AND ORDER";
   texto2= "LAW AND ORDER";
   texto3= "SPECIAL VICTIMS UNITY";
