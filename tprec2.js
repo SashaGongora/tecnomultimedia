@@ -2,7 +2,7 @@
 - Recuperatorio del Minijuego POO de cuento: Dracula
  Clickear "Play" para iniciar el juego y tecla "R" para reiniciarlo.
  Sasha Gongora, comision 2
- link: 
+ link: https://youtu.be/BeZPznKYREE
  */
 let JuegoDracula;
 
