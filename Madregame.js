@@ -44,7 +44,7 @@ class MainGame {
         image (img[2], this.x, this.y, this.w, this.h);
       }
 
-      //tela roja
+      //ladrillo
       for ( let i = 0; i < 2; i++ ) {
         Brick[i].actualizar();
         image (img[3], this.x, this.y, this.w, this.h);
